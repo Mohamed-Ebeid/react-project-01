@@ -78,6 +78,7 @@
 }
 .blog-details button {
   background: #1E90FF;
+  margin: 1px;
   color: #fff;
   border: 0;
   padding: 8px;

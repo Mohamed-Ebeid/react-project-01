@@ -9,7 +9,7 @@ const BlogList = ({ blogs, title, handleDelete }) => {
 
 				<div className="blog-preview" key={blog.id}>
 
-		            <Link to ={`/blog/${blog.id}`}> 
+		            <Link to ={`/blogs/${blog.id}`}> 
 						<h2>{blog.title}</h2>
 						<p>Written by {blog.auth}</p>
 					</Link>
